@@ -1,6 +1,6 @@
 /*
   * Author: Beatriz Vidal
-  * Description: Checar se um número é primo ou não
+  * Description: Somar Números
 */
 import java.util.Scanner;
 

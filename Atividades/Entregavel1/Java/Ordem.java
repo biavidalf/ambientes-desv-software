@@ -1,6 +1,6 @@
 /*
   * Author: Beatriz Vidal
-  * Description: Checar se um número é primo ou não
+  * Description: Ordenar um vetor
 */
 import java.util.Scanner;
 

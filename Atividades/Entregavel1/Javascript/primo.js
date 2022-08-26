@@ -1,3 +1,8 @@
+/*
+  * Author: Beatriz Vidal
+  * Description: Checar se um número é primo ou não
+*/
+
 export function numeroPrimo(numero) {
     let divisores = 0;
 

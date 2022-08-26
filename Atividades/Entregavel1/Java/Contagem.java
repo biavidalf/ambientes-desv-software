@@ -1,7 +1,6 @@
-
 /*
   * Author: Beatriz Vidal
-  * Description: Checar se um número é primo ou não
+  * Description: Contar os números inteiros
 */
 import java.util.Scanner;
 
