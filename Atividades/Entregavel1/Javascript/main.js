@@ -49,4 +49,4 @@ console.log(ordenarVetor([5, 7, 2, 1]) + "\n");
   * ================= ALGORITMO 6 =================
 */
 console.log("ALGORITMO 6: Contar Inteiros")
-console.log(contagem(5.7) + "\n");
+console.log(contagem(4) + "\n");
