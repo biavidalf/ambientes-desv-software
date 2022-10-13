@@ -59,9 +59,9 @@ class Main {
      * ================= ALGORITMO 6 =================
      */
     System.out.println("6. Contagem");
-    System.out.println("Digite o número final da contagem: ");
-    Double maximo = sc1.nextDouble();
-    System.out.println(Contagem.contagem(maximo));
+    System.out.println("Digite a quantidade de números para contar: ");
+    int qtd_nums = sc1.nextInt();
+    System.out.println(Contagem.contagem(qtd_nums));
   }
 
   /*
