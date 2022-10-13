@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Entregável 2 - Beatriz V.</title>
+
+        <!-- FONT LINK -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS LINK -->
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">&#60; Voltar</a>
+
+            <div class="menu"><a href="index.html">Javascript</a> | <a href="./java/index.html">Java</a></div>
+        </nav>
+
+        <main id="questao-main">
+            <h2>Soma de números</h2>
+            <div class="container">
+                <p>Entre com seus valores</p>
+                
+                <!-- questão2-input1 -->
+                <label for="q2-i1">Digite um número:</label>
+                <input class="input-texto" type="number" id="q2-i1">
+                
+                <!-- questão2-input2 -->
+                <label for="q2-i2">Digite outro número:</label>
+                <input class="input-texto" type="number" id="q2-i2">
+
+                <button class="button" onclick="soma()">Calcular</button>
+            </div>
+
+            <div class="container resposta">
+                <p>Resposta</p>
+                <p id="resposta-q2"></p>
+            </div>
+        </main>
+
+        <script src="./main.js"></script>        
+    </body>
+</html>

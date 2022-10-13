@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Entregável 2 - Beatriz V.</title>
+
+        <!-- FONT LINK -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS LINK -->
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">&#60; Voltar</a>
+
+            <div class="menu"><a href="index.html">Javascript</a> | <a href="./java/index.html">Java</a></div>
+        </nav>
+
+        <main id="questao-main">
+            <h2>Fibonacci</h2>
+            <div class="container">
+                <p>Entre com seus valores</p>
+                
+                <label for="q3-i1">Digite a quantidade de termos:</label>
+                <input class="input-texto" type="number" id="q3-i1">
+
+                <button class="button" onclick="fibonacci()">Calcular</button>
+            </div>
+
+            <div class="container resposta">
+                <p>Resposta</p>
+                <p id="resposta-q3"></p>
+            </div>
+        </main>
+
+        <script src="./main.js"></script>        
+    </body>
+</html>
